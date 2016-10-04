@@ -1,1 +1,6 @@
 *.vscode
+.DS_Store
+node_modules/
+build/
+examples/tmp95.pcap
+coverage/

@@ -1,14 +1,15 @@
 {
-  "name": "node-pcap-writer",
-  "version": "1.0.0",
+  "name": "pcap-scribe",
+  "version": "1.1.1",
   "description": "pcap writer using libpcap",
-  "main": "index.js",
+  "main": "pcap_dump.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "install": "node-gyp rebuild"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/harrydevnull/node-pcap-writer.git"
+    "url": "git+ssh://git@github.com/harrydevnull/pcap-scribe.git"
   },
   "keywords": [
     "nodejs",
@@ -20,7 +21,24 @@
   "author": "harrydevnull",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/harrydevnull/node-pcap-writer/issues"
+    "url": "https://github.com/harrydevnull/pcap-scribe/issues"
   },
-  "homepage": "https://github.com/harrydevnull/node-pcap-writer#readme"
+  "homepage": "https://github.com/harrydevnull/pcap-scribe#readme",
+  "dependencies": {
+    "nan": "^2.4.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-coveralls": "^1.0.1",
+    "grunt-mocha-istanbul": "^5.0.2",
+    "grunt-mocha-test": "^0.13.2",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.1.0",
+    "mocha-sinon": "^1.1.6",
+    "rewire": "^2.5.2",
+    "should": "^11.1.0",
+    "sinon": "^1.17.6"
+  }
 }
