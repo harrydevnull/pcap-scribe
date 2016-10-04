@@ -1,0 +1,26 @@
+{
+  "name": "node-pcap-writer",
+  "version": "1.0.0",
+  "description": "pcap writer using libpcap",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/harrydevnull/node-pcap-writer.git"
+  },
+  "keywords": [
+    "nodejs",
+    "pcap",
+    "libpcap",
+    "node",
+    "addon"
+  ],
+  "author": "harrydevnull",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harrydevnull/node-pcap-writer/issues"
+  },
+  "homepage": "https://github.com/harrydevnull/node-pcap-writer#readme"
+}
