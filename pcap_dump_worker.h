@@ -38,7 +38,6 @@ class PcapDumpWorker : public Nan::AsyncWorker {
     {}
 
     ~PcapDumpWorker() {
-    delete callback;
     }
 
 
