@@ -1,5 +1,5 @@
 
-Capturing packets live into file using nodejs and libpcap
+Capturing packets live and write into file using nodejs and libpcap
 
 pcap-scribe
 ================
@@ -57,10 +57,8 @@ all packets visible on the interface.
 
 Note that `pcap-scribe` always opens the interface in promiscuous mode, which generally requires running as root.
 
-`PcapDumpSession` is an `EventEmitter` that emits a `packet` event.  The only argument to the callback will be a
-`Buffer` object with the raw bytes returned by `libpcap`.
-It emits two more events `pcap_write_complete_async` when the write to file is complete
-and `pcap_write_error` in case there is an error.
+`PcapDumpSession` is an `EventEmitter` that emits either `pcap_write_complete_async` event when the write to file is complete
+or `pcap_write_error` event in case there is an error.
 
 
 
