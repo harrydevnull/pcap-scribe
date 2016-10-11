@@ -4,3 +4,4 @@ node_modules/
 build/
 examples/tmp95.pcap
 coverage/
+.idea/
