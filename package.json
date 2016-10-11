@@ -1,6 +1,6 @@
 {
   "name": "pcap-scribe",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "pcap writer using libpcap",
   "main": "pcap_dump.js",
   "scripts": {
